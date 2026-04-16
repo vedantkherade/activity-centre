@@ -27,7 +27,6 @@ The UI is designed to match **modern enterprise dashboard standards**.
 * 📄 Reports table
 * 💳 Payments table
 * 🔍 Custom topbar and filter bar
-* 📱 Responsive card-based layout
 
 ---
 
@@ -109,7 +108,7 @@ npm run build
 Preview Production Build:
 
 ```bash
-npm run dev
+npm run preview
 ```
 
 ---
