@@ -1,0 +1,147 @@
+{
+  "navWorkflows": [
+    {
+      "fund": "EBBR",
+      "entity": "EBBR Holdings LLC",
+      "workflow": "BBR Quarterly NAV",
+      "date": "30 Sep 2025",
+      "progress": 72,
+      "status": [
+        { "label": "Pre-period checks", "type": "done" },
+        { "label": "Transactions", "type": "done" },
+        { "label": "Capital & P&L", "type": "done" },
+        { "label": "Client approval", "type": "warn" }
+      ]
+    },
+    {
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "Daily Deliverables",
+      "date": "30 Sep 2025",
+      "progress": 45,
+      "status": [
+        { "label": "Trade processing", "type": "warn" },
+        { "label": "Pricing", "type": "warn" },
+        { "label": "Reconciliation", "type": "warn" }
+      ]
+    },
+    {
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "FA Daily Workflow",
+      "date": "30 Sep 2025",
+      "progress": 20,
+      "status": [
+        { "label": "Capital activity", "type": "gray" },
+        { "label": "Trade capture", "type": "gray" },
+        { "label": "Corp. actions", "type": "gray" },
+        { "label": "Non-trading", "type": "gray" }
+      ]
+    },
+    {
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "DA Daily Workflow",
+      "date": "30 Sep 2025",
+      "progress": 88,
+      "status": [
+        { "label": "Trade capture", "type": "done" },
+        { "label": "Security master", "type": "done" },
+        { "label": "Pricing & FX", "type": "done" },
+        { "label": "Income", "type": "done" },
+        { "label": "DA Sign-off", "type": "warn" }
+      ]
+    },
+    {
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "DA Daily Workflow",
+      "date": "26 Sep 2025",
+      "progress": 62,
+      "status": [
+        { "label": "Trade capture", "type": "done" },
+        { "label": "Security master", "type": "done" },
+        { "label": "Pricing & FX", "type": "done" },
+        { "label": "Income", "type": "warn" }
+      ]
+    }
+  ],
+  "otherWorkflows": [
+    {
+      "fund": "Steerhead Tech",
+      "type": "Innovation Fund",
+      "name": "Controller Report Pack",
+      "date": "30 May 2025",
+      "status": ["Pre-req check", "CAS Reports"]
+    },
+    {
+      "fund": "Steerhead Tech",
+      "type": "Innovation Fund",
+      "name": "Controller Report Pack",
+      "date": "12 Mar 2025",
+      "status": ["Pre-req check", "CAS Reports"]
+    }
+  ],
+  "capitalEvents": [
+    {
+      "id": 5004,
+      "fund": "EBBR Rep III",
+      "type": "Net Call",
+      "date": "30 Mar 2026",
+      "status": "Initiated"
+    },
+    {
+      "id": 4999,
+      "fund": "EBBR Rep III",
+      "type": "Call",
+      "date": "30 Mar 2026",
+      "status": "Initiated"
+    },
+    {
+      "id": 4987,
+      "fund": "EBBR Rep III",
+      "type": "Call",
+      "date": "13 Mar 2026",
+      "status": "Initiated"
+    },
+    {
+      "id": 4963,
+      "fund": "EBBR Fund I",
+      "type": "Call",
+      "date": "14 Feb 2026",
+      "status": "Oversight review"
+    }
+  ],
+  "reports": [
+    {
+      "entity": "Steerhead Alt Energy",
+      "report": "Reconciliations",
+      "group": "Accounting",
+      "created": "30 May 2025",
+      "status": "Delivered"
+    },
+    {
+      "entity": "AHTestFeeder",
+      "report": "Carry Calculation",
+      "group": "Accounting",
+      "created": "-",
+      "status": "Pending"
+    }
+  ],
+  "payments": [
+    {
+      "id": 406,
+      "type": "Deal Payment",
+      "date": "20 Jun 2025",
+      "amount": "50,000.00",
+      "status": "Client review"
+    },
+    {
+      "id": 399,
+      "type": "One Off Payment",
+      "date": "19 Jun 2025",
+      "amount": "9,000.00",
+      "status": "Client review"
+    }
+  ]
+}

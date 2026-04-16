@@ -1,0 +1,237 @@
+.page {
+  padding: 18px 24px 28px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.section {
+  margin-top: 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04),
+    0 8px 24px rgba(16, 24, 40, 0.04);
+  overflow: hidden;
+}
+
+.card--large {
+  min-height: 420px;
+}
+
+.card-header {
+  padding: 18px 20px;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.card-header--space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.card-titleWrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.card-subtitle {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.card-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.card-icon--blue {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.card-icon--green {
+  background: #ecfdf5;
+  color: #16a34a;
+}
+
+.card-icon--gold {
+  background: #fff7ed;
+  color: #d97706;
+}
+
+.card-icon--purple {
+  background: #f5f3ff;
+  color: #7c3aed;
+}
+
+.card-icon--neutral {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.btn--light {
+  background: #fff;
+  border-color: #e5e7eb;
+  color: #374151;
+}
+
+.btn--primary {
+  background: #2563eb;
+  color: #fff;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.appTable th,
+.appTable td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eef1f5;
+  vertical-align: middle;
+}
+
+.appTable th {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  font-weight: 700;
+  background: #fafbfc;
+}
+
+.appTable td {
+  font-size: 14px;
+  color: #111827;
+}
+
+.appTable tbody tr:hover {
+  background: #fafafa;
+}
+
+.cellMain {
+  font-weight: 600;
+  color: #111827;
+}
+
+.cellSub {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.cellSubDark {
+  color: #6b7280;
+}
+
+.amountCell {
+  font-variant-numeric: tabular-nums;
+}
+
+.progressCell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 220px;
+}
+
+.progressCell .MuiLinearProgress-root {
+  flex: 1;
+}
+
+.progressText {
+  min-width: 36px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.pillGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pillDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
+  opacity: 0.7;
+}
+
+.pill--green {
+  background: #ecfdf3;
+  color: #166534;
+}
+
+.pill--amber {
+  background: #fff7ed;
+  color: #b45309;
+}
+
+.pill--gray {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.pill--blue {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.card-footer {
+  padding: 12px 20px;
+  font-size: 12px;
+  color: #9ca3af;
+  border-top: 1px solid #eef1f5;
+}
